@@ -53,6 +53,8 @@ const FormularioTexto = () => {
     setInputList(items);
   }
 
+
+
   return (
     <div className="main-form">
       <div className="text-title">
@@ -118,6 +120,11 @@ const FormularioTexto = () => {
         <BiPlus />
       </button>
       */}
+      <footer>
+        <p>
+          Modified by Alvin Au &copy; <span>{new Date().getFullYear()}</span>
+        </p>
+      </footer>
     </div>
   );
 };
